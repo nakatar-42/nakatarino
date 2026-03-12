@@ -136,7 +136,7 @@ public class Question1 {
 
 		// xが10以上なら"OK"、そうでなければ"NG"
 		String message = (x >= 10) ? "OK" : "NG";
-
+		
 		// 結果を表示
 		System.out.println(message);
 
