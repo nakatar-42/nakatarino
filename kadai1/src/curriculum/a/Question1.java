@@ -4,18 +4,27 @@ public class Question1 {
 
 	public static void main(String[] args) {
 
-		// ===== Q1・Q2 ===== 
-		// 変数を宣言すると同時に初期値を代入している
+		// Q1 変数宣言
+		byte byteNum;
+		short shortNum;
+		int intNum;
+		long longNum;
+		float floatNum;
+		double doubleNum;
+		char letter;
+		String letters;
+		boolean isBoolean;
 
-		byte byteNum = 10;
-		short shortNum = 100;
-		int intNum = 1000;
-		long longNum = 10000;
-		float floatNum = 9.5f;
-		double doubleNum = 10.5;
-		char letter = 'a';
-		String letters = "ハロー";
-		boolean isBoolean = true;
+		// Q2 値を代入
+		byteNum = 10;
+		shortNum = 100;
+		intNum = 1000;
+		longNum = 10000;
+		floatNum = 9.5f;
+		doubleNum = 10.5;
+		letter = 'a';
+		letters = "ハロー";
+		isBoolean = true;
 
 		// ===== Q3 出力 =====
 
@@ -136,7 +145,7 @@ public class Question1 {
 
 		// xが10以上なら"OK"、そうでなければ"NG"
 		String message = (x >= 10) ? "OK" : "NG";
-		
+
 		// 結果を表示
 		System.out.println(message);
 
