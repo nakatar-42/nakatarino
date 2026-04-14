@@ -78,7 +78,9 @@ public class Question2 {
 		System.out.print("0から100のいずれかの数値を入力してください: ");
 		int score2 = scanner.nextInt();
 
-		if (score2 >= 90) {
+		if (score2 < 0 || score2 > 100) {
+		    System.out.println("無効な値です");
+		} else if (score2 >= 90) {
 			System.out.println("優");
 		} else if (score2 >= 70) {
 			System.out.println("良");
