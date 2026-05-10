@@ -80,7 +80,7 @@ public class Question4 {
 		System.out.print("数値を入力してください: ");
 		int input = scanner.nextInt();
 
-		boolean found = false; // 見つかったかどうか
+		boolean found = false; 
 
 		// 配列を順番にチェック
 		for (int num : numbers6) {
