@@ -65,16 +65,16 @@ public class Question4 {
 		System.out.println("----");
 
 		//Q5 配列の全要素を2倍にして表示(拡張for文)
-		int[] numbers5 = {1, 2, 3, 4, 5};
+		int[] numbers5 = { 1, 2, 3, 4, 5 };
 
 		// 配列の要素を1つずつ取り出して2倍して表示
 		for (int num : numbers5) {
-		    System.out.println(num * 2);
+			System.out.println(num * 2);
 		}
-		
+
 		//Q6 入力した値が配列に含まれているか判定
 
-		int[] numbers6 = {4, 7, 10, 15, 20};
+		int[] numbers6 = { 4, 7, 10, 15, 20 };
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("数値を入力してください: ");
@@ -84,17 +84,17 @@ public class Question4 {
 
 		// 配列を順番にチェック
 		for (int num : numbers6) {
-		    if (num == input) {
-		        found = true;
-		        break; // 見つけたら終了
-		    }
+			if (num == input) {
+				found = true;
+				break; // 見つけたら終了
+			}
 		}
 
 		// 結果表示
 		if (found) {
-		    System.out.println(input + "は配列に含まれています");
+			System.out.println(input + "は配列に含まれています");
 		} else {
-		    System.out.println(input + "は配列に含まれていません");
+			System.out.println(input + "は配列に含まれていません");
 		}
 	}
 
